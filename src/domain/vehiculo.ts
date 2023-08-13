@@ -1,7 +1,7 @@
 abstract class Vehiculo {
   abstract avanzar(): void;
   abstract chocado(): boolean;
-  abstract doChocar(): void;
+  abstract doChocar();
 
   chocar(vehiculo: Vehiculo): void {
     this.doChocar();
